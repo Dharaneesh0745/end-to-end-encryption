@@ -542,10 +542,6 @@ This project references and learns from the following excellent resources:
 ### Video Tutorials
 1. **[Arena Allocator Video Tutorial](https://www.youtube.com/watch?v=TZ5a3gCCZYo)** - Comprehensive video explaining arena allocators
 
-**Watch the Arena Allocator Tutorial:**
-
-[![Arena Allocator Tutorial](https://img.youtube.com/vi/TZ5a3gCCZYo/maxresdefault.jpg)](https://www.youtube.com/watch?v=TZ5a3gCCZYo)
-
 ---
 
 ## Credits
