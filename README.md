@@ -525,3 +525,35 @@ gcc -o main.exe main.c
 
 **Last Updated:** January 11, 2026
 **Test Results:** See arena-test.txt and without-arena-test.txt for detailed analysis
+---
+
+## Learning References
+
+This project references and learns from the following excellent resources:
+
+### GitHub Repositories
+1. **[tsoding/arena](https://github.com/tsoding/arena)** - Comprehensive arena allocator implementation
+2. **[ccgargantua/arena-allocator](https://github.com/ccgargantua/arena-allocator)** - Another excellent arena allocator implementation
+
+### Educational Articles
+1. **[Untangling Lifetimes: The Arena Allocator](https://www.rfleury.com/p/untangling-lifetimes-the-arena-allocator)** - Detailed explanation of arena allocators and memory lifetimes
+2. **[Reddit Discussion: Why is an Arena Allocator Useful in C](https://www.reddit.com/r/learnprogramming/comments/1d6g4fz/c_why_is_an_arena_allocator_useful_in_c_and_how/)** - Community insights and practical use cases
+
+### Video Tutorials
+1. **[Arena Allocator Video Tutorial](https://www.youtube.com/watch?v=TZ5a3gCCZYo)** - Comprehensive video explaining arena allocators
+
+**Watch the Arena Allocator Tutorial:**
+
+[![Arena Allocator Tutorial](https://img.youtube.com/vi/TZ5a3gCCZYo/maxresdefault.jpg)](https://www.youtube.com/watch?v=TZ5a3gCCZYo)
+
+---
+
+## Credits
+
+This project was created by studying and implementing concepts from the above references. Special thanks to:
+- **Tsoding** for the excellent arena allocator implementation
+- **Ryan Fleury** for the detailed lifetime management article
+- **The C Community** on Reddit for practical insights
+- **Video creators** for visual explanations
+
+---
