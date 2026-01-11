@@ -1,0 +1,14 @@
+================================================================================
+SECURE MESSAGING SYSTEM - CONVERSATION LOG
+================================================================================
+
+Format: [DateTime] | [Direction] | [Message] | [Encrypted (HEX)] | [Encryption Details] | [Plaintext]
+================================================================================
+
+[2026-01-10 11:29:13] | Server -> Client | hello bro | 3e239ac720caaa3f47 | 256-bit XOR-Chain | Nonce: 2923be84e16cd6ae529049f1f1bbe9eb | MAC: 128-bit | Data Length: 9B | hello bro
+[2026-01-10 11:29:20] | Client -> Server | bru, long time no see? | 344e5449f1d7ba337bea28680c24be5d517549a48e21 | 256-bit XOR-Chain | Nonce: 2923be84e16cd6ae529049f1f1bbe9eb | MAC: 128-bit | Data Length: 22B | bru, long time no see?
+[2026-01-10 11:29:24] | Server -> Client | yes dude | 2f525647ab009a58 | 256-bit XOR-Chain | Nonce: b3a6db3c870c3e99245e0d1c06b747de | MAC: 128-bit | Data Length: 8B | yes dude
+[2026-01-11 14:54:12] | Server -> Client | Hello bro | 1e437ae700ea8a5f27 | 256-bit XOR-Chain | Nonce: 2923be84e16cd6ae529049f1f1bbe9eb | MAC: 128-bit | Data Length: 9B | Hello bro
+[2026-01-11 14:54:18] | Client -> Server | Hii dude, how are you? | 1e4f4b7c605f39b98efd078fff14ef1692b602152986 | 256-bit XOR-Chain | Nonce: 2923be84e16cd6ae529049f1f1bbe9eb | MAC: 128-bit | Data Length: 22B | Hii dude, how are you?
+[2026-01-11 14:54:26] | Server -> Client | i'm fine, what about you man!!? | 3f605e4fb1127e44017095069ea701179af1c34fb63fa253501df4252fa061 | 256-bit XOR-Chain | Nonce: b3a6db3c870c3e99245e0d1c06b747de | MAC: 128-bit | Data Length: 31B | i'm fine, what about you man!!?
+[2026-01-11 14:54:36] | Client -> Server | awsome bro!! | 37486816f3d8f6fb968add97 | 256-bit XOR-Chain | Nonce: b3a6db3c870c3e99245e0d1c06b747de | MAC: 128-bit | Data Length: 12B | awsome bro!!
