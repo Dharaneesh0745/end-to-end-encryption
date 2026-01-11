@@ -1,4 +1,5 @@
 # 🎯 System Architecture & Data Flow Diagrams
+![Project Overview](public/image.png)
 
 ## 1️⃣ Overall System Architecture
 
