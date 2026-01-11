@@ -6,23 +6,14 @@ echo "secure messaging system - build script"
 echo "========================================="
 echo
 
-echo "[1/2] building server..."
-g++ -std=c++17 -Wall -I./include -o server src/server.cpp
+
+echo "[1/1] building combined binary..."
+g++ -std=c++17 -Wall -I./include -o main_combined src/main_combined.cpp src/server.cpp src/client.cpp src/crypto.cpp -lpthread
 if [ $? -ne 0 ]; then
-    echo "error: failed to build server!"
+    echo "error: failed to build main_combined!"
     exit 1
 fi
-echo "server built successfully: server"
-
-echo
-
-echo "[2/2] building client..."
-g++ -std=c++17 -Wall -I./include -o client src/client.cpp
-if [ $? -ne 0 ]; then
-    echo "error: failed to build client!"
-    exit 1
-fi
-echo "client built successfully: client"
+echo "combined binary built successfully: main_combined"
 
 echo
 

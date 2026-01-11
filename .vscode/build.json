@@ -1,0 +1,45 @@
+{
+	"version": "0.0.1",
+	"tasks": [
+		{
+			"label": "build windows binary",
+			"type": "shell",
+			"command": "g++ -o main_combined.exe src/main_combined.cpp src/server.cpp src/client.cpp -Iinclude -lws2_32",
+			"args": [],
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "build linux binary",
+			"type": "shell",
+			"command": "g++ -o main_combined src/main_combined.cpp src/server.cpp src/client.cpp -Iinclude -lpthread",
+			"args": [],
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "build windows binary",
+			"type": "shell",
+			"command": "g++ -o main_combined.exe src/main_combined.cpp src/server.cpp src/client.cpp src/crypto.cpp -Iinclude -lws2_32",
+			"args": [],
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "build linux binary",
+			"type": "shell",
+			"command": "g++ -o main_combined src/main_combined.cpp src/server.cpp src/client.cpp src/crypto.cpp -Iinclude -lpthread",
+			"args": [],
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		}
+	]
+}

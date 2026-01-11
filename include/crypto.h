@@ -78,8 +78,7 @@ public:
     }
 };
 
-std::mt19937_64 SimpleCrypto::rng;
-bool SimpleCrypto::initialized = false;
+
 
 class CryptoEngine {
 public:

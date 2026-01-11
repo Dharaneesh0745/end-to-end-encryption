@@ -14,23 +14,14 @@ if not exist "logs" (
 
 REM 
 echo.
-echo [1/2] Building Server...
-g++ -std=c++17 -Wall -I./include -o server.exe src/server.cpp -lws2_32
-if %ERRORLEVEL% NEQ 0 (
-    echo ERROR: Failed to build server!
-    exit /b 1
-)
-echo Server built successfully: server.exe
 
-REM 
-echo.
-echo [2/2] Building Client...
-g++ -std=c++17 -Wall -I./include -o client.exe src/client.cpp -lws2_32
+echo [1/1] Building Combined Binary...
+g++ -std=c++17 -Wall -I./include -o main_combined.exe src/main_combined.cpp src/server.cpp src/client.cpp src/crypto.cpp -lws2_32
 if %ERRORLEVEL% NEQ 0 (
-    echo ERROR: Failed to build client!
+    echo ERROR: Failed to build main_combined!
     exit /b 1
 )
-echo Client built successfully: client.exe
+echo Combined binary built successfully: main_combined.exe
 
 echo.
 echo ========================================
